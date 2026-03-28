@@ -14,10 +14,9 @@ def count_file_lines():
 
     count = 0
 
-    # Open the file in read mode
     with open("names.txt", "r") as file:
         for line in file:
-            count += 1  # Count each line
+            count += 1
 
     print("Number of names in the file:", count)
     print('In the count_file_lines function')
