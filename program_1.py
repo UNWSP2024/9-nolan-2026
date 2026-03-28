@@ -19,8 +19,7 @@ def count_file_lines():
             count += 1
 
     print("Number of names in the file:", count)
-    print('In the count_file_lines function')
-
+    
 # You don't need to change anything below this line:
 if __name__ == '__main__':
     count_file_lines()
