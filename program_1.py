@@ -18,6 +18,7 @@ def count_file_lines():
         for line in file:
             count += 1
 
+    print('In the count_file_lines function')
     print("Number of names in the file:", count)
     
 # You don't need to change anything below this line:
